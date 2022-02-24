@@ -69,7 +69,7 @@ export default function Profile() {
                 <input type="text" class="form-control" id="pin" />
               </div>
 
-              <button type="submit" class="btn btn-primary">Save</button>
+              <button type="submit" class="btn btn-submit">Save</button>
             </form>
 
 

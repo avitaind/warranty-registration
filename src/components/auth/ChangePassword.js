@@ -17,7 +17,7 @@ export default function ChangePassword() {
             <h6>Email : <span>sandy4u1994@gmail.com</span></h6>
           </div>
 
-          <div className='col-6 '>
+          <div className='col-md-6 '>
       
           <form>
           <h3 className='my-4 mb-4'>Change Password</h3>
@@ -39,7 +39,7 @@ export default function ChangePassword() {
           <input type="confirm" class="form-control" id="exampleInputconfirmPassword" />
         </div>
 
-           <button type="submit" class="btn btn-primary">Change Password</button>
+           <button type="submit" class="btn btn-submit">Change Password</button>
          </form>
 
 

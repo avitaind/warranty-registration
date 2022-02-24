@@ -23,7 +23,7 @@ export default function Login() {
           <input type="checkbox" class="form-check-input" id="exampleCheck1" />
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Login</button>
+        <button type="submit" class="btn btn-submit">Login</button>
       </form>
     </div>
     </div>

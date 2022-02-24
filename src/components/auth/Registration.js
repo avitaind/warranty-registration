@@ -58,7 +58,7 @@ export default function Registration() {
             <input type="checkbox" class="form-check-input" id="exampleCheck1" />
             <label class="form-check-label" for="exampleCheck1">Keep me up to date by eDMs with AVITA news, latest product and service information.</label>
           </div>
-          <button type="submit" class="btn btn-primary">Register</button>
+          <button type="submit" class="btn  btn-submit">Register</button>
         </form>
       </div>
     </div>

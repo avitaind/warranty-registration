@@ -147,6 +147,21 @@ ul ul a {
     border-color: #fff;
 }
 
+
+button.btn-submit{
+    background-color: #662d91;
+    width: 120px;
+    color:#fff;
+}
+
+button.btn-submit:hover{
+    color: #662d91;
+    background-color:#fff;
+    border-color: #662d91;
+}
+
+
+
 .home-text{
     font-size: 1.5em !important;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
