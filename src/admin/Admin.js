@@ -19,8 +19,9 @@ import {
 
 function Admin() {
     return (
-        <div>
+        <div className='container-fluid'>
             <Router>
+            <div>
                 <Switch>
                     <Route exact path="/admin">
                         <Home />
@@ -48,8 +49,10 @@ function Admin() {
                     </Route>
             
                 </Switch>
+                </div>
+
             </Router>
-        </div>
+            </div>
     )
 }
 
