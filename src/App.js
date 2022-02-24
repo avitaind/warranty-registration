@@ -1,6 +1,6 @@
 import './App.css';
 import Profile from './components/Profile';
-import Settings from './components/Settings';
+import About from './components/About';
 import WarrantyRegistration from './components/WarrantyRegister';
 import Contact from './components/Contact';
 import Products from './components/Products';
@@ -16,6 +16,7 @@ import {
   Route,
 } from "react-router-dom";
 import ChangePassword from './components/auth/ChangePassword';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -50,8 +51,11 @@ function App() {
             <Route path="/change-password">
               <ChangePassword />
             </Route>
-            <Route path="/settings">
-              <Settings />
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/faq">
+              <Faq />
             </Route>
           </Switch>
         </div>

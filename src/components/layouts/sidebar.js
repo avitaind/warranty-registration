@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from '../Logo';
 
 
@@ -8,10 +8,15 @@ export default function Sidebar() {
         <div className="wrapper">
             <nav id="sidebar">
                 <div className="sidebar-header">
-                    <Logo/>
+                    <Logo />
                 </div>
-               
+
                 <ul className="list-unstyled components">
+                    <h5 className='mt-4'>Dashboard</h5>
+                    <hr />
+                    <li className="active navlink mb-2">
+                        <Link to="/">Home </Link>
+                    </li>
                     <h5 className='mt-4'>My Account</h5>
                     <hr />
                     <li className="active navlink mb-2">
@@ -31,17 +36,17 @@ export default function Sidebar() {
                     <li className='navlink'>
                         <Link to="/contact-us">Contact Us</Link>
                     </li>
-                    <li className='navlink mb-2'>
-                        <Link to="/login">Login</Link>
+
+                    <h5 className='mt-4'>About</h5>
+                    <hr />
+                    <li className="active navlink mb-2">
+                        <Link to="/about">AVITA</Link>
                     </li>
                     <li className='navlink mb-2'>
-                        <Link to="/signup">Registration</Link>
+                        <Link to="/faq">FAQ's</Link>
                     </li>
-                    <li className='navlink mb-2'>
-                    <Link to="/recover-password">Recover Password</Link>
-                    </li>
-                    <li className='navlink mb-2'>
-                        <Link to="/settings">Settings</Link>
+                    <li className="active navlink mb-2">
+                        <Link to="/logout">Logout </Link>
                     </li>
                 </ul>
             </nav>

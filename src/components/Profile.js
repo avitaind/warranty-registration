@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from './layouts/Sidebar';
-import User from '../../src/img/User.png'
+import User from '../../src/img/User.png';
 
 export default function Profile() {
   return (
