@@ -14,15 +14,17 @@ export default function Profile() {
             <img src={User} className="m-2" style={{ width: 250 }} />
             <h6>Usrename : <span>sandy4u1994</span></h6>
             <h6>Email : <span>sandy4u1994@gmail.com</span></h6>
-            <hr />
-
-            <small>Items marked with an asterisk (*) must be filled out.</small>
-
+         
           </div>
 
           <div className='col-6 '>
       
             <form>
+            <h3 className='mb-4'>Member Center</h3>
+
+            <small>Items marked with an asterisk (*) must be filled out.</small>
+            <hr />
+
               <div class="mb-3">
                 <label for="firstname" class="form-label">First Name</label>
                 <input type="text" class="form-control" id="firstname" />
@@ -57,13 +59,10 @@ export default function Profile() {
                   <option value="other">Other</option>
                 </select>
               </div>
+         
               <div class="mb-3">
-                <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control" id="city" />
-              </div>   
-              <div class="mb-3">
-                <label for="state" class="form-label">State</label>
-                <input type="text" class="form-control" id="state" />
+                <label for="address" class="form-label">Address</label>
+                <textarea type="text" class="form-control" id="address" />
               </div>    
                <div class="mb-3">
                 <label for="pin" class="form-label">Pin</label>
