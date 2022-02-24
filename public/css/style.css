@@ -150,7 +150,7 @@ ul ul a {
 
 button.btn-submit{
     background-color: #662d91;
-    width: 120px;
+    width: 150px;
     color:#fff;
 }
 
@@ -165,4 +165,9 @@ button.btn-submit:hover{
 .home-text{
     font-size: 1.5em !important;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.product-card{
+    border: 1px solid rgb(232, 232, 232);
+    padding: 15px;
 }

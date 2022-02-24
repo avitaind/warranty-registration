@@ -17,7 +17,7 @@ export default function ChangePassword() {
             <h6>Email : <span>sandy4u1994@gmail.com</span></h6>
           </div>
 
-          <div className='col-md-6 '>
+          <div className='col-md-6'>
       
           <form>
           <h3 className='my-4 mb-4'>Change Password</h3>

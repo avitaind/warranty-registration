@@ -22,14 +22,14 @@ export default function About() {
             <p>Our team is comprised of talented individuals who, before starting up AVITA, worked in product development for some big name tech companies. It was their collective enthusiasm for outstanding design and meaningful technology that brought them together to form AVITA. You can learn more about the company behind AVITA here.</p>
             <p>In 2021, we got the Intel Titanium Partner Award, the top tier of the Intel’s alliance membership, in recognition of our extraordinary growth in AVITA business in Asian regions. Same year, AVITA LIBER V, has been awarded a highly-coveted international design award – the distinctive “Red Dot Award: Product Design 2021” which stands for superior design quality.</p>
          
-            <img src={IntelImg} className="m-4" style={{width:120}}/>
-            <img src={ReddotImg} className="m-4" style={{width:220}}/>
+            <img src={IntelImg} alt="Intel" className="m-4" style={{width:120}}/>
+            <img src={ReddotImg} alt="RedDot" className="m-4" style={{width:220}}/>
             <p>As a team we truly live by our ethos to ‘live it up’ - this is part of our company DNA and what makes our products like no other.</p>
 
             </div>
 
           <div className='col-md-7'>
-            <img src={AboutImg} className="m-2"/>
+            <img src={AboutImg} alt="About" className="m-2"/>
           </div>
 
         </div>

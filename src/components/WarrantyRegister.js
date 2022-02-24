@@ -10,7 +10,7 @@ export default function WarrantyRegister() {
       </div>
       <div className='card col-md-10 p-4'>
         <div className='row'>
-                  <div className='col-md-6 mx-5 '>
+                  <div className='col-md-6'>
       
           <form>
           <h3 className='my-4 mb-4'>Product Registration</h3>
@@ -70,7 +70,7 @@ export default function WarrantyRegister() {
         <div class="mb-3">
           <label for="exampleInputnewSerialno" class="form-label">Serial No.</label>
           <input type="text" class="form-control" id="exampleInputnewSerialno" />
-          <img src={SNLocation} className="m-2" />
+          <img src={SNLocation} alt="Serial no." className="m-2" style={{width:350}}/>
 
         </div>
 

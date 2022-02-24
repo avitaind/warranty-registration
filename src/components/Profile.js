@@ -17,7 +17,7 @@ export default function Profile() {
          
           </div>
 
-          <div className='col-6 '>
+          <div className='col-md-6 '>
       
             <form>
             <h3 className='mb-4'>Member Center</h3>
