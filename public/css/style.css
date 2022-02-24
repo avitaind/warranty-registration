@@ -13,6 +13,7 @@ body {
     display: flex;
     align-items: stretch;
     height: auto;
+    width: auto;
 }
 
 #sidebar {

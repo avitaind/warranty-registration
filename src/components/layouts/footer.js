@@ -1,5 +1,7 @@
 import React from 'react';
 import FooterTop from './FooterTop';
+import Copyright from '../Copyright';
+
 
 export default function Footer() {
   return (
@@ -46,7 +48,7 @@ export default function Footer() {
         <div class="col-sm">
         <ul>
           <li><a href='/'>India</a></li>
-          <li>© NEXSTGO COMPANY LTD. ALL RIGHTS RESERVED. </li>
+          <Copyright/>
           </ul>
       </div>
         </div>

@@ -15,7 +15,7 @@ export default function Registration() {
           <p className='my-2'>Items marked with an asterisk (*) must be filled out.</p>
           <hr />
           <div class="mb-3">
-            <label for="exampleInputUserId" class="form-label">Nick Name</label>
+            <label for="exampleInputUserId" class="form-label">Username</label>
             <input type="text" class="form-control" id="exampleInputUserId" aria-describedby="usernameHelp" />
           </div>
           <div class="mb-3">
