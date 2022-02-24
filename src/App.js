@@ -8,15 +8,15 @@ import Login from './components/auth/Login';
 import Registration from './components/auth/Registration';
 import RecoverPassword from './components/auth/RecoverPassword';
 import Home from './components/Home';
-
+import ChangePassword from './components/auth/ChangePassword';
+import Faq from './components/Faq';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import ChangePassword from './components/auth/ChangePassword';
-import Faq from './components/Faq';
+
 
 function App() {
   return (
