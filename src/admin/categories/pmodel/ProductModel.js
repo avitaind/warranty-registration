@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from '../../layouts/Sidebar';
 
 export default function ProductModel() {
   return (
-    <div>Product Model</div>
-  )
+    <div>
+    <Sidebar/>
+        <p>Product Model </p>
+    
+    </div>
+    
+    )
 }

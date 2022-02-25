@@ -11,6 +11,7 @@ import Home from './components/Home';
 import ChangePassword from './components/auth/ChangePassword';
 import Faq from './components/Faq';
 
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -57,6 +58,7 @@ function App() {
             <Route path="/faq">
               <Faq />
             </Route>
+
           </Switch>
         </div>
       </Router>

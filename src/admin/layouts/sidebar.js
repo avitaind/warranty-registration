@@ -15,38 +15,39 @@ export default function Sidebar() {
           <h5 className='mt-4'>Dashboard</h5>
           <hr />
           <li className="active navlink mb-2">
-            <Link to="/">Home </Link>
+            <Link exact to="/admin">Home </Link>
           </li>
-          <h5 className='mt-4'>My Account</h5>
+          <li className="active navlink mb-2">
+          <Link to="/admin/analytics">Analytics </Link>
+        </li>
+          <h5 className='mt-4'>Products</h5>
           <hr />
           <li className="active navlink mb-2">
-            <Link to="/profile">My Profile </Link>
+            <Link to="/admin/products">All Products</Link>
           </li>
-          <li className='navlink mb-2'>
-            <Link to="/change-password">Change Password</Link>
-          </li>
-          <h5 className='mt-4'>My Support</h5>
+          <li className="active navlink mb-2">
+          <Link to="/admin/product-categories">Product Categories</Link>
+        </li>
+
+          <h5 className='mt-4'>Warranty Details</h5>
           <hr />
           <li className='navlink mb-2'>
-            <Link to="/products">My Product</Link>
+            <Link to="/admin/customers">All Customers</Link>
           </li>
           <li className='navlink mb-2'>
-            <Link to="/warranty-registration">Warranty Registration</Link>
+            <Link to="/admin/warranty-registered">Warranty Registered</Link>
           </li>
           <li className='navlink'>
-            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/admin/invoices">All Invoices</Link>
           </li>
 
-          <h5 className='mt-4'>About</h5>
+          <h5 className='mt-4'>Settings</h5>
           <hr />
           <li className="active navlink mb-2">
-            <Link to="/about">AVITA</Link>
-          </li>
-          <li className='navlink mb-2'>
-            <Link to="/faq">FAQ's</Link>
-          </li>
+          <Link to="/admin/settings">Settings </Link>
+        </li>
           <li className="active navlink mb-2">
-            <Link to="/logout">Logout </Link>
+            <Link to="/admin/logout">Logout </Link>
           </li>
         </ul>
       </nav>

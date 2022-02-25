@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from '../../layouts/Sidebar';
 
 export default function ProductSeries() {
   return (
-    <div>Product Series</div>
-  )
+    <div>
+    <Sidebar/>
+        <p>Product Series </p>
+    
+    </div>
+    
+    )
 }
